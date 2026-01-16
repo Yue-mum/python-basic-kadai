@@ -1,8 +1,9 @@
 price1 = 100
 price2 = 200
 
-def total(p1, p2, tax):
+def total(p1, p2, t):
     
-    return (price1 + price2) * tax
+    return (p1 + p2) * t
 
-print (total(price1, price2, 1.1))
+tax = 1.1
+print (total(price1, price2, tax))
